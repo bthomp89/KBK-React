@@ -1,390 +1,366 @@
 .root {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    padding: 0%;
-    position: absolute;
-    overflow: hidden;
-  
-  }
-  
-  .navBar{
-    position: relative;
-    display: flex;
-    justify-content: space-evenly;
-    gap: 2.5em;
-    font-weight: 500;
-    font-size: 20px;
-    background-color: white;
-    padding: 1.2em;
-    margin: 0;
-    z-index: 1;
-  }
-  .KBKLOGO{
-    width: 100%;
-    background-color:#FF6B00;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    z-index: 1;
-  }
-  .startBanner{
-    margin: 0;
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 60vh;
-    background-image: url(../images/kelly-sikkema-xLA0FyK2nyA-unsplash.jpg);
-    background-size:cover;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    
-  }
-  
-  .container {
-    margin: 0;
-    text-align: center;
-  }
-  
-  .root-container {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .headline {
-    width: 40%;
-    height: 30%;
-  }
-  
-  .headline p {
-    font-size: 50px;
-    color: white;
-    font-weight: 500;
-    position: relative;
-    z-index: 1;
-  }
-  
-  .box {
-    position:absolute;
-    left: 60%;
-    bottom:-33%;
-    width: 100%;
-    height: 160%;
-    background-color: black;
-    opacity: 20%;
-    transform: rotate(10deg);
-  }
-  
-  .mission {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-    height: 70vh;
-    z-index: 1;
-    background-color: white;
-    margin: 0;
-    padding: 0;
-    top: 0;
-    gap: 0em;
-  }
-  
-  .mission-title {
-    width: 30vw;
-  }
-  
-  .mission h1 {
-    font-size: 3em;
-    font-weight: 600;
-  }
-  
-  .mission-box {
-    width: 30vw;
-    padding: 0;
-  
-  }
-  
-  .mission .mission-box p {
-    font-size: 1.5em;
-    margin-top: -1em;
-  }
-  
-  .circle {
-    width: 70vw;
-    height: 90vh;
-    position: absolute;
-  
-  }
-  
-  .mission-group {
-    width: 70vw;
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .stats {
-    width: 100%;
-    height: 90vh;
-    display: flex;
-  }
-  
-  .stat {
-    width: 33.333%;
-    height: 100%;
-    background-color: #FF6B00;
-    display: flex;
-    flex-direction: column;
-  
-  }
-  
-  #statA {
-    background-color: #FF9E89;
-  }
-  
-  #statB {
-    background-color: #FB876E;
-  
-  }
-  #statC {
-    background-color: #FF7253;
-    ;
-  }
-  
-  .stat-title {
-    color: white;
-    font-size: 3em;
-    margin-top: 15%;
-    font-weight: 700;
-  }
-  .stat-content {
-    padding: 9%;
-    color: white;
-    font-size: 1.45em;
-  }
-  .main-stat {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 60vh;
-  }
-  
-  .main-stat-group {
-    padding: 10%;
-    
-  }
-  
-  .main-stat-group p {
-    font-size: 2.3em;
-    padding: 5%;
-    border:#FF6B00 solid 4px;
-  }
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 0%;
+  position: absolute;
+  overflow: hidden;
+}
+.navBar {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2.5em;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: white;
+  padding: 1.2em;
+  margin: 0;
+  z-index: 1;
+}
+.KBKLOGO {
+  width: 100%;
+  background-color: #ff6b00;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+.startBanner {
+  margin: 0;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60vh;
+  background-image: url(../images/template_images/pic0.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
 
-  .gallery {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%; /* Adjust the width to fit the container */
-    height: 927px;
-    padding: 6%;
-  }
-  
-  .gallery-header {
-    padding-bottom: 20px;
-  }
-  
-  .gallery-link {
-    text-decoration: none;
-    color: #5B5B5B;
-    font-size: 40px;
-  }
-  
-  .gallery .col{
-    width: 50%;
-  }
-  
-  .gallery .col-left-col{
-    width: 50%;
-  }
+.container {
+  margin: 0;
+  text-align: center;
+}
 
-  .gallery .col-left-col img{
-    width: 100%;
-    height: 800px;
+.root-container {
+  display: flex;
+  flex-direction: column;
+}
 
-  }
+.headline {
+  width: 40%;
+  height: 30%;
+}
 
-  
-  
-  .gallery .image-gallery{
-    display: flex;  
-    flex-wrap: wrap;
-    align-items: center;
-  }
-  
-  .image-gallery img{
-    width: 50%;
-    height: 400px;
-  }
-  
-  .howItWorks {
-    height: 830px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Inter', sans-serif;
-  }
-  
-  .howItWorks .col-text{
-    width: 40%;
-    text-align: left;
-  }
-  
-  
+.headline p {
+  font-size: 50px;
+  color: white;
+  font-weight: 500;
+  position: relative;
+  z-index: 1;
+}
 
+.box {
+  position: absolute;
+  left: 60%;
+  bottom: -33%;
+  width: 100%;
+  height: 160%;
+  background-color: black;
+  opacity: 20%;
+  transform: rotate(10deg);
+}
 
-  .title {
-    margin-bottom: -5em ;
-    position: relative;
-    align-self: flex-start;  
-    font-size: 20px;
-    color: white;
-  }
+.mission {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 70vh;
+  z-index: 1;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  gap: 0em;
+}
 
+.mission-title {
+  width: 30vw;
+}
 
-  .title #headerText{
-    position: relative;
-    left: 110%;
-  }
-  .col-text h1{
-    font-size: 44px;
-    margin-top: -37px;
-  }
-  
-  .col-text h2{
-    font-size: 50px;
-    
-  }
-  .col-left p{
-    font-size: 34px;
-  }
-  
-  .col-text .kidsHeader2{
-    padding-left: 183px !important;
-  }
-  .col-text .kidsHeader3{
-    padding-left: 146px !important;
-  }
-  .col-text .kidsText{
-    font-size: 20px;
-    padding-left: 203px !important;
-    padding-right: 97px;
-  }
-  .col-text .kidsText2{
-    padding-left: 180px !important;
-    padding-right: 97px;
-  }
-  
-  .howItWorks .col-img{
-    width: 50%;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .howItWorks .col-img img{
-    max-width: 660px;
-    max-height: 326px;
-  }
-  
-  .ourPartners {
-    padding: 54px;
-    padding-top: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10%;
-  }
-  
-  .partners {
-    flex: 0.5; 
-    font-size: 30px;
-    justify-content: left;
-  }
-  
-  
+.mission h1 {
+  font-size: 3em;
+  font-weight: 600;
+}
+
+.mission-box {
+  width: 30vw;
+  padding: 0;
+}
+
+.mission .mission-box p {
+  font-size: 1.5em;
+  margin-top: -1em;
+}
+
+.circle {
+  width: 70vw;
+  height: 90vh;
+  position: absolute;
+}
+
+.mission-group {
+  width: 70vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.stats {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+}
+
+.stat {
+  width: 33.333%;
+  height: 100%;
+  background-color: #ff6b00;
+  display: flex;
+  flex-direction: column;
+}
+
+#statA {
+  background-color: #ff9e89;
+}
+
+#statB {
+  background-color: #fb876e;
+}
+#statC {
+  background-color: #ff7253;
+}
+
+.stat-title {
+  color: white;
+  font-size: 3em;
+  margin-top: 15%;
+  font-weight: 700;
+}
+.stat-content {
+  padding: 9%;
+  color: white;
+  font-size: 1.45em;
+}
+.main-stat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60vh;
+}
+
+.main-stat-group {
+  padding: 10%;
+}
+
+.main-stat-group p {
+  font-size: 2.3em;
+  padding: 5%;
+  border: #ff6b00 solid 4px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Adjust the width to fit the container */
+  height: 927px;
+  padding: 6%;
+}
+
+.gallery-header {
+  padding-bottom: 20px;
+}
+
+.gallery-link {
+  text-decoration: none;
+  color: #5b5b5b;
+  font-size: 40px;
+}
+
+.gallery .col {
+  width: 50%;
+}
+
+.gallery .col-left-col {
+  width: 50%;
+}
+
+.gallery .col-left-col img {
+  width: 100%;
+  height: 800px;
+}
+
+.gallery .image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.image-gallery img {
+  width: 50%;
+  height: 400px;
+}
+
+.howItWorks {
+  height: 830px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+}
+
+.howItWorks .col-text {
+  width: 40%;
+  text-align: left;
+}
+
+.title {
+  margin-bottom: -5em;
+  position: relative;
+  align-self: flex-start;
+  font-size: 20px;
+  color: white;
+}
+
+.title #headerText {
+  position: relative;
+  left: 110%;
+}
+.col-text h1 {
+  font-size: 44px;
+  margin-top: -37px;
+}
+
+.col-text h2 {
+  font-size: 50px;
+}
+.col-left p {
+  font-size: 34px;
+}
+
+.col-text .kidsHeader2 {
+  padding-left: 183px !important;
+}
+.col-text .kidsHeader3 {
+  padding-left: 146px !important;
+}
+.col-text .kidsText {
+  font-size: 20px;
+  padding-left: 203px !important;
+  padding-right: 97px;
+}
+.col-text .kidsText2 {
+  padding-left: 180px !important;
+  padding-right: 97px;
+}
+
+.howItWorks .col-img {
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.howItWorks .col-img img {
+  max-width: 660px;
+  max-height: 326px;
+}
+
+.ourPartners {
+  padding: 54px;
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+}
+
+.partners {
+  flex: 0.5;
+  font-size: 30px;
+  justify-content: left;
+}
+
+.partnersHeader {
+  font-size: 2em;
+  text-align: left;
+  margin-bottom: 10px !important;
+}
+
+@media screen and (max-width: 800px) {
   .partnersHeader {
-    font-size: 2em;
-    text-align: left;
-    margin-bottom: 10px !important;
-    
+    font-size: 1.5em; /* Decrease font size for smaller screens */
   }
-  
-  @media screen and (max-width: 800px) {
-    .partnersHeader {
-        font-size: 1.5em; /* Decrease font size for smaller screens */
-    }
-  }
-  
-  @media screen and (max-width: 1500px) {
-    .partnersHeader {
-        font-size: 1.75em; /* Further decrease font size for even smaller screens */
-    }
-  }
+}
 
-  .wrap-grid-container {
+@media screen and (max-width: 1500px) {
+  .partnersHeader {
+    font-size: 1.75em; /* Further decrease font size for even smaller screens */
+  }
+}
 
-    width: 60%;
-  }
+.wrap-grid-container {
+  width: 60%;
+}
 
-  
-  .wrap-grid {
-    flex: 3; 
-    display: flex;
-  }
-  
-  .wrap-grid img{
-    max-width: 90%;
-    height: auto;
-    width: auto\9; /* ie8 */
-    padding-left:10px;
-    padding-right:10px;
-  }
-  
-  .a-container{
-    justify-content: center;
-    text-align: center;
-    display: flex;
-    padding-bottom: 60px;
-  }
-  
-  .divider {
-    width: 680px;
-    height: 0px;
-    border: 1px solid #7B7B7B;
-    border-radius: 25px;
-  }
-  
-  .partnersDivider {
-    width: 240px;
-    height: 0px;
-    border: 1px solid #7B7B7B;
-    border-radius: 25px;
-    
-  }
+.wrap-grid {
+  flex: 3;
+  display: flex;
+}
 
+.wrap-grid img {
+  max-width: 90%;
+  height: auto;
+  width: auto\9; /* ie8 */
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
+.a-container {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  padding-bottom: 60px;
+}
 
-  /* Adjustments for Mobile Devices */
+.divider {
+  width: 680px;
+  height: 0px;
+  border: 1px solid #7b7b7b;
+  border-radius: 25px;
+}
+
+.partnersDivider {
+  width: 240px;
+  height: 0px;
+  border: 1px solid #7b7b7b;
+  border-radius: 25px;
+}
+
+/* Adjustments for Mobile Devices */
 @media screen and (max-width: 768px) {
   .navBar {
     flex-direction: column;
@@ -393,14 +369,13 @@
     margin-bottom: -100px;
     z-index: 2;
   }
-  
+
   .KBKLOGO {
     height: 150px; /* Adjust height */
   }
-  
-  .startBanner{
-    display: none;
 
+  .startBanner {
+    display: none;
   }
   .mission {
     margin-top: -10px;
@@ -408,74 +383,75 @@
     padding: 2em; /* Add padding */
     text-align: center;
   }
-  
+
   .mission-title {
     width: 60%; /* Adjust width */
   }
-  
+
   .mission h1 {
     font-size: 3em; /* Decrease font size */
   }
-  
+
   .mission .mission-box p {
     font-size: 1.2em; /* Decrease font size */
   }
-  
+
   .gallery {
     height: auto; /* Auto height */
     padding: 4%; /* Adjust padding */
   }
-  
+
   .gallery .col-left-col img {
     height: auto; /* Auto height */
     max-width: 100%; /* Ensure image doesn't overflow */
   }
-  
+
   .gallery .image-gallery img {
     width: 100%; /* Take full width */
     height: auto; /* Auto height */
   }
-  
+
   .howItWorks {
     flex-direction: column;
     height: auto; /* Auto height */
     padding: 2em; /* Adjust padding */
   }
-  
+
   .howItWorks .col-text,
   .howItWorks .col-img {
     width: 100%; /* Take full width */
     text-align: center; /* Center text */
   }
-  
+
   .howItWorks .col-text h1 {
     font-size: 2em; /* Decrease font size */
   }
-  
+
   .howItWorks .col-img img {
     max-width: 100%; /* Ensure image doesn't overflow */
     height: auto; /* Auto height */
   }
-  
+
   .ourPartners {
     padding: 2em; /* Adjust padding */
     flex-direction: column;
     gap: 2em;
   }
-  
+
   .wrap-grid-container {
     width: 100%; /* Take full width */
   }
-  
+
   .divider,
   .partnersDivider {
     width: 100%; /* Take full width */
   }
 }
 
-  
 @media screen and (max-width: 1024px) {
-  .navBar, .howItWorks, .ourPartners {
+  .navBar,
+  .howItWorks,
+  .ourPartners {
     flex-direction: column;
     align-items: center;
     gap: 1em;
@@ -485,19 +461,24 @@
     height: 175px; /* Adjust for tablet */
   }
 
-  .headline, .mission-title {
+  .headline,
+  .mission-title {
     width: 90%;
   }
 
-  .headline p, .mission h1, .mission .mission-box p, .howItWorks .col-text h1 {
+  .headline p,
+  .mission h1,
+  .mission .mission-box p,
+  .howItWorks .col-text h1 {
     font-size: 1.5em; /* Adjust for tablet */
   }
 
-  .mission, .gallery, .howItWorks {
+  .mission,
+  .gallery,
+  .howItWorks {
     padding: 3%;
   }
 }
-
 
 @media screen and (max-width: 768px) {
   .navBar {
@@ -505,16 +486,16 @@
     align-items: center;
     gap: 1em;
   }
-  
+
   .KBKLOGO {
     height: 150px; /* Adjust for mobile */
   }
-  
+
   .headline {
     width: 80%;
     text-align: center;
   }
-  
+
   .headline p {
     font-size: 30px; /* Adjust for mobile */
   }
@@ -523,9 +504,9 @@
     font-size: 0.75em;
   }
 
-.stat-title {
-  font-size: 2em;
-}
+  .stat-title {
+    font-size: 2em;
+  }
 
   .stat {
     height: 70%;
@@ -539,45 +520,44 @@
     padding: 2em;
     text-align: center;
   }
-  
+
   .mission-title {
     width: 60%;
   }
-  
+
   .mission h1 {
     font-size: 1.5em; /* Adjust for mobile */
   }
-  
+
   .mission .mission-box p {
     font-size: 0.8em; /* Adjust for mobile */
   }
-  
-  .gallery , .gallery-header {
-    display: none;
-  
-  }
 
+  .gallery,
+  .gallery-header {
+    display: none;
+  }
 
   .title {
     display: none;
   }
-  
+
   .howItWorks {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;  }
+    width: 100%;
+  }
 
   .col-text .kidsHeader2 {
     font-size: 40px;
     padding-left: 0 !important;
   }
   .col-text .kidsText {
-    
     padding: 4% !important;
   }
-  
+
   .howItWorks .col-text,
   .howItWorks .col-img {
     display: flex;
@@ -585,26 +565,26 @@
     width: 100%;
     text-align: center;
   }
-  
+
   .howItWorks .col-text h1 {
     font-size: 1em; /* Adjust for mobile */
   }
-  
+
   .howItWorks .col-img img {
     max-width: 100%;
     height: auto;
   }
-  
+
   .ourPartners {
     padding: 2em;
     flex-direction: column;
     gap: 2em;
   }
-  
+
   .wrap-grid-container {
     width: 100%;
   }
-  
+
   .divider,
   .partnersDivider {
     width: 100%;
